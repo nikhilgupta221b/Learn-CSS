@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Practice 05</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            text-align: center;
+        }
+        #firstdiv {
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            border-radius: 50%;
+        }
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            margin: 5px;
+            display: inline-block;
+        }
+        #first {
+            position: fixed;
+            top: 100px;
+            right: 0px;
+        }
+        #second{
+            position: relative;
+            left: 30px;
+            background-color: rgb(255, 0, 0);
+            z-index: 0;
+        }
+        #third {
+            position: relative;
+            z-index: 2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <div id="firstdiv"> </div>
+        <div id="first" class="box">First</div>
+        <div id="second" class="box">Second</div>
+        <div id="third" class="box">Third</div>
+    </main>
+    <footer>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quis, nesciunt necessitatibus quas ratione aliquam exercitationem quos cumque quo sunt. Cum consequatur dolore reprehenderit laborum? Ipsa amet sequi dolore ipsam!</p>
+    </footer>
+</body>
+</html>
